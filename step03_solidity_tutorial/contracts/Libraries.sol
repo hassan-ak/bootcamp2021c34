@@ -37,4 +37,20 @@ contract ContractMath {
     function doSomeWork() public {
         emit DataUpdated(56, msg.sender);
     }
+
+    /*
+     **********************
+     *** Error Handling ***
+     **********************
+     */
+    function mint(uint256 numbersOfTokens) public {
+        require(numbersOfTokens < 10, "Number of tokens less than 10 required");
+        if (numbersOfTokens > 5 && numbersOfTokens < 10) {
+            if (numbersOfTokens > 7 && numbersOfTokens < 9) {
+                revert("Testing revert");
+            }
+        }
+
+        // assert(totalSupply < 10000);
+    }
 }
