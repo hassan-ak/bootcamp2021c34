@@ -21,6 +21,7 @@ async function main() {
   const recipt = await txt1.wait();
   console.log("Recipt = ", recipt);
   console.log("Events = ", recipt.events);
+  console.log(await contractMath.mint(8));
 }
 
 // We recommend this pattern to be able to use async/await everywhere
