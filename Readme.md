@@ -17,7 +17,7 @@
 
 - [Solidity tutorial](./step03_solidity_tutorial)
 
-### Class 33 Videos: Solidity Tutorial 06
+### Class 34 Videos: Solidity Tutorial 06
 
 - [English YouTube](https://www.youtube.com/watch?v=dNel-1J7WAo&feature=youtu.be&ab_channel=CertifiedUnicornDeveloper)
 - [English Facebook](https://www.facebook.com/zeeshanhanif/videos/474397740982913)
